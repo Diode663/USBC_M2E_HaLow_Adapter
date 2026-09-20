@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "project": "USBC_M2E_HaLow_Adapter.kicad_pro",
+  "current": "2026-09-20_1330",
+  "runs": {
+    "2026-09-20_1330": {
+      "source_hashes": {
+        "USBC_M2E_HaLow_Adapter.kicad_sch": "sha256:beb21771fd3fa144ccfb6a55c7e10bb941c3847e17c77ff308349a5d693c5b7e",
+        "USBC_M2E_HaLow_Adapter.kicad_pcb": "sha256:463b6e9b3ba7886fd516520e0f1d7b9212a0f0613748e3045fee02f6c4a9a377",
+        "schematic.json": "sha256:dcff64954e113c137a693558c8afd7b21954780c8dc3b2523e399d494cc2c575",
+        "pcb.json": "sha256:385d9dca1b297e0aa9712d9acc4febd8309ae0c3364fb48a126a4a866f72e6cb"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py USBC_M2E_HaLow_Adapter.kicad_sch"
+      },
+      "generated": "2026-09-20T13:30:49-04:00",
+      "pinned": false
+    }
+  }
+}

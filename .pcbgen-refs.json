@@ -1,0 +1,242 @@
+{
+ "C1": {
+  "angle": 90.0,
+  "dx": 3.075,
+  "dy": 0.0,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "C2": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": -1.16,
+  "flipped": false,
+  "pinned": false,
+  "visible": false
+ },
+ "C3": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": -1.16,
+  "flipped": false,
+  "pinned": false,
+  "visible": false
+ },
+ "C4": {
+  "angle": 0.0,
+  "dx": 3.576,
+  "dy": 0.0,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "C5": {
+  "angle": 0.0,
+  "dx": 3.576,
+  "dy": 0.0,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "C6": {
+  "angle": 90.0,
+  "dx": -3.075,
+  "dy": -0.0,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "C7": {
+  "angle": 90.0,
+  "dx": 2.255,
+  "dy": 0.0,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "C8": {
+  "angle": 0.0,
+  "dx": 2.786,
+  "dy": 0.0,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "C9": {
+  "angle": 0.0,
+  "dx": 2.786,
+  "dy": 0.0,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "D1": {
+  "angle": 0.0,
+  "dx": 4.076,
+  "dy": 0.0,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "FID1": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": -2.025,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "FID2": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": -2.025,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "FID3": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": -2.025,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "H1": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": 4.225,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "H2": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": 4.225,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "H3": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": -4.225,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "H4": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": -4.225,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "H5": {
+  "angle": 0.0,
+  "dx": -5.05,
+  "dy": 0.0,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "J1": {
+  "angle": 90.0,
+  "dx": -6.095,
+  "dy": -0.56,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "J2": {
+  "angle": 270.0,
+  "dx": 0.0,
+  "dy": 6.277,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "L1": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": 4.175,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "R1": {
+  "angle": 0.0,
+  "dx": -0.955,
+  "dy": 1.245,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "R2": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": 1.245,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "R3": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": -1.17,
+  "flipped": false,
+  "pinned": false,
+  "visible": false
+ },
+ "R4": {
+  "angle": 0.0,
+  "dx": -0.0,
+  "dy": -1.17,
+  "flipped": false,
+  "pinned": false,
+  "visible": false
+ },
+ "TP1": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": -2.025,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "TP2": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": -2.025,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "TP3": {
+  "angle": 0.0,
+  "dx": 0.0,
+  "dy": -2.025,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ },
+ "U1": {
+  "angle": 180.0,
+  "dx": 0.05,
+  "dy": -2.75,
+  "flipped": false,
+  "pinned": true,
+  "visible": true
+ },
+ "U2": {
+  "angle": 180.0,
+  "dx": 2.075,
+  "dy": -2.65,
+  "flipped": false,
+  "pinned": false,
+  "visible": true
+ }
+}

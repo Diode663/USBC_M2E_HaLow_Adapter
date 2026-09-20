@@ -1,0 +1,33 @@
+# KiCad local state, locks and history
+*.kicad_prl
+*.lck
+~*
+fp-info-cache
+.history/
+*-backups/
+
+# generator backups and caches
+.pcbgen-backup/
+.schgen-backup/
+__pycache__/
+
+# vendor datasheets: copyrighted PDFs, fetch them from the manufacturers / LCSC
+datasheets/
+
+# regenerable outputs kept elsewhere (docs/ has the renders, fab/ has the package)
+/pcb_top.png
+/pcb_bottom.png
+/pcb_angled.png
+/pcb.svg
+/floorplan.png
+/floorplan.svg
+/floorplan.json
+/silk_check.png
+/drc.json
+jlc/
+
+# analyzer run folders are large and regenerable; the review itself is in docs/
+analysis/2026-*/
+analysis/*_after_fixes.json
+analysis/capability_mode.json
+analysis/gerber_check.json

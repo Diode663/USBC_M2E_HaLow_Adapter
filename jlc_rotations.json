@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "about": "Per-designator CPL corrections for this board. JLCPCB's zero orientation is a property of THEIR footprint for each LCSC part, not of the package name: the two SOT-23-6 parts here need different corrections. offset_x / offset_y are in CPL (board) millimetres and therefore depend on the part's rotation on this board.",
+  "rules": [],
+  "overrides": {
+    "U1": {
+      "rotation": 270,
+      "verified": true,
+      "source": "JLCPCB/EasyEDA footprint for this LCSC part fetched with easyeda2kicad 2026-09-20, pin 1 compared with the KiCad footprint: C7519 uses SOT-23-6_..-BL, pin 1 bottom-left with leads on the bottom/top rows = KiCad footprint at 90 deg. Confirmed by the owner's screenshot of JLCPCB's placement viewer (CPL 180 showed pin 1 top-right; silkscreen pin 1 is bottom-right)."
+    },
+    "U2": {
+      "rotation": 180,
+      "verified": false,
+      "source": "JLCPCB/EasyEDA footprint for this LCSC part fetched with easyeda2kicad 2026-09-20, pin 1 compared with the KiCad footprint: C116592 uses SOT-23-6_..-BR, pin 1 bottom-right = KiCad footprint at 180 deg."
+    },
+    "J1": {
+      "rotation": 0,
+      "offset_x": 1.57,
+      "offset_y": 0,
+      "verified": false,
+      "source": "JLCPCB/EasyEDA footprint for this LCSC part fetched with easyeda2kicad 2026-09-20, pin 1 compared with the KiCad footprint: C165948 has the same orientation as KiCad's HRO footprint, but its origin is 1.57 mm nearer the signal pads (pads at y=-2.47 vs -4.04). J1 sits at 270 deg here, so that is +1.57 mm in X. The owner's viewer screenshot shows the model's contacts about that far left of the pads."
+    },
+    "D1": {
+      "rotation": 0,
+      "verified": true,
+      "source": "JLCPCB/EasyEDA footprint for this LCSC part fetched with easyeda2kicad 2026-09-20, pin 1 compared with the KiCad footprint: C19077497 SOD-123FL has pad 1 at -X like KiCad's D_SOD-123F. Viewer screenshot shows the cathode band on the J1 side, as designed."
+    },
+    "J2": {
+      "rotation": 0,
+      "verified": false,
+      "source": "Footprint is JLCPCB's own (easyeda2kicad, C52766479): same origin and orientation by construction."
+    },
+    "L1": {
+      "rotation": 0,
+      "verified": false,
+      "source": "Footprint is JLCPCB's own (easyeda2kicad, C5189748 series): symmetric part, same origin."
+    },
+    "H5": {
+      "rotation": 0,
+      "verified": false,
+      "source": "Footprint is JLCPCB's own (easyeda2kicad, C5301773): round part."
+    }
+  }
+}

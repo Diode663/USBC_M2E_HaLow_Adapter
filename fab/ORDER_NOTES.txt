@@ -1,0 +1,32 @@
+JLCPCB order settings for USBC_M2E_HaLow_Adapter (Rev A)
+
+PCB
+  Layers 2, 56.5 x 40.5 mm, thickness 1.6 mm, outer copper 1 oz, FR-4.
+  Surface finish: LeadFree HASL is fine; ENIG is nicer for the 0.5 mm pitch M.2 socket.
+  Via covering: tented. Min via hole 0.3 mm / diameter 0.6 mm (no surcharge tier).
+  Impedance control: NO. JLCPCB does not offer it on 2 layers. The USB pair is drawn
+  to their calculator's numbers for stackup JLC0216A: 0.3345 / 0.1524 mm, ground 0.2032 mm.
+  Remove order number: optional ("Specify a location" is not drawn on this board).
+
+PCB assembly
+  Side: top only. Economic PCBA. JLCPCB's parts library lists J1 (C165948), J2 (C52766479)
+  and H5 (C5301773) as "SMT Assembly, PCBA Type: Economic and Standard" (checked 2026-09-20).
+  All three are Extended parts. J1 overhangs the board edge by 0.5 mm: if their engineer
+  queries that at file review, it is intentional.
+  Tooling holes: added by JLCPCB. Fiducials FID1-FID3 are on the board.
+  Files: *_bom.csv and *_cpl.csv from this folder.
+  Not populated by design: H1-H4 (holes), FID1-3, TP1-3. They have no LCSC number and
+  are in neither file.
+  Placement corrections are in jlc_rotations.json, each with its evidence. JLCPCB's zero
+  orientation belongs to THEIR footprint for each LCSC part: U1 (C7519) needs +270, U2
+  (C116592) needs +180 although both are SOT-23-6, and J1's origin is 1.57 mm nearer its pads.
+  LOOK AT THESE AGAIN in the placement preview after uploading this CPL:
+    U1  pin 1 dot bottom-right, on the silkscreen triangle   (was wrong, now corrected)
+    U2  pin 1 dot bottom-right, on the silkscreen triangle   (corrected from their footprint, not yet seen)
+    J1  contacts sitting on the pads, opening toward the left edge   (shifted 1.57 mm)
+    D1  cathode band on the J1 side;  J2 slot opening toward H5
+  H5 is an M2 x 2.5 mm SMT nut (C5301773) that seats in a 3.7 mm plated hole.
+
+First board bring-up
+  Measure VBUS at C1 during transmit (TI wants >= 4.43 V for 3.3 V out).
+  Check 3.3 V load-step / ripple at TP1, and receive sensitivity with the buck loaded.

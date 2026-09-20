@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "HaLowAdapter") (type "KiCad") (uri "${KIPRJMOD}/library/HaLowAdapter.kicad_sym") (options "") (descr "Project symbols: M.2 E-key socket with shell tabs"))
+)

@@ -1,0 +1,13 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "HaLowAdapter") (type "KiCad") (uri "${KIPRJMOD}/library/HaLowAdapter.pretty") (options "") (descr "Project footprints: MLD E-key socket, 4.7 uH inductor"))
+	(lib (name "Resistor_SMD") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Resistor_SMD.pretty") (options "") (descr "KiCad stock"))
+	(lib (name "Capacitor_SMD") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Capacitor_SMD.pretty") (options "") (descr "KiCad stock"))
+	(lib (name "Diode_SMD") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Diode_SMD.pretty") (options "") (descr "KiCad stock"))
+	(lib (name "Package_TO_SOT_SMD") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Package_TO_SOT_SMD.pretty") (options "") (descr "KiCad stock"))
+	(lib (name "Connector_USB") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Connector_USB.pretty") (options "") (descr "KiCad stock"))
+	(lib (name "MountingHole") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/MountingHole.pretty") (options "") (descr "KiCad stock"))
+	(lib (name "Mounting_Wuerth") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Mounting_Wuerth.pretty") (options "") (descr "KiCad stock"))
+	(lib (name "Fiducial") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/Fiducial.pretty") (options "") (descr "KiCad stock"))
+	(lib (name "TestPoint") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/TestPoint.pretty") (options "") (descr "KiCad stock"))
+)
