@@ -6,9 +6,9 @@ GW16170 (Morse Micro MM8108-M20) Wi-Fi HaLow card. 56.5 x 40.5 mm, 2-layer
 
 ![Top view with the card envelope](docs/pcb_top.png)
 
-> **Status: Rev A was sent for fabrication on 2026-09-20 and has not been tested yet.**
-> Build it at your own risk until that line changes. The bring-up checks are in
-> [`fab/ORDER_NOTES.txt`](fab/ORDER_NOTES.txt) and the pre-fabrication review is in
+> **Status: Rev A is built and works as designed** (boards assembled by JLCPCB, confirmed by the
+> author on 2026-09-29). The project is closed; no Rev B is planned.
+> Test procedure: [`docs/Test_Procedure.md`](docs/Test_Procedure.md). Pre-fabrication review:
 > [`docs/Design_Review_2026-09-20.md`](docs/Design_Review_2026-09-20.md).
 
 | Block | Parts |
@@ -79,7 +79,7 @@ the placement-file corrections with the evidence for each.
 ## Repository contents
 - `USBC_M2E_HaLow_Adapter.kicad_*`: the KiCad 10 project, schematic, routed board and custom design rules.
 - `fab/`: the package sent to JLCPCB for Rev A (gerbers zip, BOM, placement file, order notes).
-- `docs/`: schematic PDF, renders, copper images and the pre-fabrication design review.
+- `docs/`: schematic PDF, renders, copper images, the pre-fabrication design review and the board test procedure.
 - `library/`: project symbols, footprints and 3D models.
 - `*.py`: the generators. `schlib.py`, `subcircuits.py`, `pcblib.py`, `autoplace.py`, `recipes.py` and `jlc_cpl.py` are copies of the libraries the project was generated with.
 - Vendor datasheets are not included.
